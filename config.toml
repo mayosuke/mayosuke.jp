@@ -1,0 +1,13 @@
+baseURL = "https://mayosuke.jp/"
+languageCode = "en-us"
+title = "mayosuke.jp"
+author = "Yosuke Miyajima"
+copyright = "2017 Yosuke Miyajima"
+googleanalytics = ""
+
+[params]
+  logo      = "/images/mayosuke.jpg"
+  twitter   = "https://twitter.com/mayosuke"
+  facebook  = "https://www.facebook.com/yosuke.miyajima"
+  github    = "https://github.com/mayosuke/"
+  email     = "mayo.suke@gmail.com"
