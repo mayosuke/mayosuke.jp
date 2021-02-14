@@ -1,14 +1,37 @@
 baseURL = "https://mayosuke.jp/"
 languageCode = "ja-jp"
 title = "mayosuke.jp"
-author = "Yosuke Miyajima"
+
 copyright = "2017 Yosuke Miyajima"
 googleanalytics = ""
 
+theme = "m10c"
+
 [params]
-  logo      = "/images/mayosuke.jpg"
-  twitter   = "https://twitter.com/mayosuke"
-  facebook  = "https://www.facebook.com/yosuke.miyajima"
-  github    = "https://github.com/mayosuke/"
-  devio     = "https://dev.classmethod.jp/author/miyajima-yosuke/"
-  email     = "mayo.suke@gmail.com"
+  author = "Yosuke MIYAJIMA"
+  description = "Hello, World!"
+  menu_item_separator = " - "
+  avatar = "/images/mayosuke.jpg"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/mayosuke"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/mayosuke"
+  [[params.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/yosuke.miyajima"
+  [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UCC9LPNCR2utEtMZRmZoZUyg"
+  [[params.social]]
+    name = "DevelopersIO"
+    url = "https://dev.classmethod.jp/author/miyajima-yosuke/"
+
+  # Red and black theme
+  [params.style]
+   darkestColor = "#d35050"
+   darkColor = "#212121"
+   primaryColor = "#ffffff"
+   lightColor = "#a2a2a2"
+   lightestColor = "#d3d3d3"
