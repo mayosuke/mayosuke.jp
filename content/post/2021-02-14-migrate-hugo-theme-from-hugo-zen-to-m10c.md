@@ -39,6 +39,19 @@ config.tomlにthemeを指定。
 ...
 ```
 
+テーマをconfig.tomlで指定したので、ローカルサーバー上でのサイト表示・サイト生成時に引数でのテーマ指定は不要になる。
+
+ローカルサーバー上でのサイト表示
+```shell
+❯❯❯ hugo server --buildDrafts --watch --disableFastRender
+```
+
+サイト生成&S3へのアップロード。
+```shell
+❯❯❯ hugo; and aws s3 sync --delete ./public s3://XXXX --profile XXXX
+❯❯❯ aws cloudfront create-invalidation --distribution-id XXXX --paths "/*" --profile XXXX
+```
+
 というわけで、本日からmayosuke.jpのテーマは[m10c](https://github.com/vaga/hugo-theme-m10c)になりました。
 
 ## ToDos
